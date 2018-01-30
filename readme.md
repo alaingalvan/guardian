@@ -1,5 +1,5 @@
-<p style="text-align:center;">
-  <img src="screenshots/guardian-logo.png" alt="Guardian Logo">
+<p align="center">
+  <img src="screenshots/guardian-logo.png" alt="Guardian Logo"/>
 </p>
 
 # Guardian
