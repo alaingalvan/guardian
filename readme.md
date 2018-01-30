@@ -2,6 +2,8 @@
   <img src="screenshots/guardian-logo.png" alt="Guardian Logo">
 </p>
 
+# Guardian
+
 [![License][license-img]][license-url]
 [![Windows][windows-img]][windows-url]
 [![Donate][donate-img]][donate-url]
