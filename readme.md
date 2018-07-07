@@ -8,7 +8,7 @@
 [![Windows][windows-img]][windows-url]
 [![Donate][donate-img]][donate-url]
 
-A real time monster based RPG I made for Game Maker's 2011 summer competition. Pretty old, I made this back when I was 16. Written in Game Maker 8.1, and never upgraded since it depended on 8.1's JIT compiler.
+A real time monster based RPG I made for Game Maker's 2010 summer competition. Pretty old, I made this back when I was 16. Written in Game Maker 8.1, and never upgraded since it depended on 8.1's JIT compiler.
 
 ## Screenshots
 
