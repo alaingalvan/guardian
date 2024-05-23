@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"beast_foe_sight",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"beast_foe_sight",
+  "parent":{
+    "name":"Beasts",
+    "path":"folders/Scripts/Beasts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

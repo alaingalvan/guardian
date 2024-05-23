@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"view_deactivate",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"view_deactivate",
+  "parent":{
+    "name":"Game",
+    "path":"folders/Scripts/Game.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

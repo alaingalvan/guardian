@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"fix_view_position",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fix_view_position",
+  "parent":{
+    "name":"Control",
+    "path":"folders/Scripts/Control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

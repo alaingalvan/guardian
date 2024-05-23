@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_wave_freq(x,y,freq,amp,time,speed);",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_wave_freq(x,y,freq,amp,time,speed);",
+  "parent":{
+    "name":"Control",
+    "path":"folders/Scripts/Control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

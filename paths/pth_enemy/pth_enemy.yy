@@ -1,0 +1,15 @@
+{
+  "$GMPath":"",
+  "%Name":"pth_enemy",
+  "closed":true,
+  "kind":0,
+  "name":"pth_enemy",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

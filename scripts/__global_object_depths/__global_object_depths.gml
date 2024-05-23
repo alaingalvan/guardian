@@ -1,0 +1,139 @@
+function __global_object_depths() {
+  // Initialise the global array that allows the lookup of the depth of a given object
+  // GM2.0 does not have a depth on objects so on import from 1.x a global array is created
+  // NOTE: MacroExpansion is used to insert the array initialisation at import time
+  gml_pragma("global", "__global_object_depths()");
+
+  // insert the generated arrays here
+  global.__objectDepths[0] = 0; // obj_player
+  global.__objectDepths[1] = -1000000000; // obj_menu_item
+  global.__objectDepths[2] = -1000000000; // obj_menu_saveload
+  global.__objectDepths[3] = -1000000000; // obj_menu_skill
+  global.__objectDepths[4] = -1000000000; // obj_menu_stat
+  global.__objectDepths[5] = -1000000000; // obj_menu
+  global.__objectDepths[6] = 0; // obj_skill_parrent
+  global.__objectDepths[7] = -10000000; // obj_skill_fireshot
+  global.__objectDepths[8] = -10000000; // obj_skill_bladeshot
+  global.__objectDepths[9] = -10000000; // obj_skill_ionicburst
+  global.__objectDepths[10] = -10000000; // obj_skill_pressureblast
+  global.__objectDepths[11] = -10000000; // obj_skill_bladeshot_ini
+  global.__objectDepths[12] = -10000000; // obj_skill_ionicburst_ini
+  global.__objectDepths[13] = -10000000; // obj_skill_pressureblast_ini
+  global.__objectDepths[14] = -10000000; // obj_skill_poisonshot
+  global.__objectDepths[15] = -10000000; // obj_skill_duskball
+  global.__objectDepths[16] = -10000000; // obj_skill_firestar
+  global.__objectDepths[17] = -10000000; // obj_skill_watersphere
+  global.__objectDepths[18] = 0; // obj_skill_blazetower
+  global.__objectDepths[19] = -10000000; // obj_skill_iceshot
+  global.__objectDepths[20] = -10000000; // obj_skill_rockshot
+  global.__objectDepths[21] = -10000000; // obj_skill_sparkshot
+  global.__objectDepths[22] = -10000000; // obj_skill_aircutter
+  global.__objectDepths[23] = -10000000; // obj_skill_duowinds
+  global.__objectDepths[24] = -10000000; // obj_skill_ram
+  global.__objectDepths[25] = -10000000; // obj_skill_slash
+  global.__objectDepths[26] = -10000000; // obj_skill_heatup
+  global.__objectDepths[27] = -100000000; // obj_damage_display
+  global.__objectDepths[28] = -100000000; // obj_health_display
+  global.__objectDepths[29] = -100000000; // obj_experience_display
+  global.__objectDepths[30] = -100000000; // obj_energy_display
+  global.__objectDepths[31] = -100000000; // obj_info_display
+  global.__objectDepths[32] = 0; // obj_foe_parrent
+  global.__objectDepths[33] = 0; // obj_foe0
+  global.__objectDepths[34] = 0; // obj_npc
+  global.__objectDepths[35] = 0; // obj_intro_menu
+  global.__objectDepths[36] = 0; // obj_into_agcreate
+  global.__objectDepths[37] = 0; // obj_prop_tree
+  global.__objectDepths[38] = 0; // obj_prop_raft
+  global.__objectDepths[39] = 0; // obj_inventory_obj
+  global.__objectDepths[40] = -100000000; // obj_misc_atmosphere
+  global.__objectDepths[41] = -100000000; // obj_atmosphere_cave
+  global.__objectDepths[42] = -1000000000; // obj_game_tran0
+  global.__objectDepths[43] = -1000000000; // obj_game_tran1
+  global.__objectDepths[44] = 0; // obj_menu_textinput
+  global.__objectDepths[45] = -1000000000; // obj_text_window
+  global.__objectDepths[46] = -100000000; // obj_text_lvmessage
+  global.__objectDepths[47] = -100000000; // obj_text_itemmessage
+  global.__objectDepths[48] = -1000000000; // obj_game_tutorial
+  global.__objectDepths[49] = -1410065408; // obj_game_cutscene
+  global.__objectDepths[50] = -100000000; // obj_misc_blind
+  global.__objectDepths[51] = -99999999; // obj_teleport
+  global.__objectDepths[52] = -99999999; // obj_block
+  global.__objectDepths[53] = -99999999; // obj_atkblock
+  global.__objectDepths[54] = -99999999; // obj_event_trigger
+  global.__objectDepths[55] = -99999999; // obj_event_prevent
+  global.__objectDepths[56] = -99999999; // obj_event_detect
+  global.__objectDepths[57] = 0; // obj_randomitemgen
+  global.__objectDepths[58] = 0; // obj_comentary
+  global.__objectDepths[59] = 0; // obj_music_control
+
+  global.__objectNames[0] = "obj_player";
+  global.__objectNames[1] = "obj_menu_item";
+  global.__objectNames[2] = "obj_menu_saveload";
+  global.__objectNames[3] = "obj_menu_skill";
+  global.__objectNames[4] = "obj_menu_stat";
+  global.__objectNames[5] = "obj_menu";
+  global.__objectNames[6] = "obj_skill_parrent";
+  global.__objectNames[7] = "obj_skill_fireshot";
+  global.__objectNames[8] = "obj_skill_bladeshot";
+  global.__objectNames[9] = "obj_skill_ionicburst";
+  global.__objectNames[10] = "obj_skill_pressureblast";
+  global.__objectNames[11] = "obj_skill_bladeshot_ini";
+  global.__objectNames[12] = "obj_skill_ionicburst_ini";
+  global.__objectNames[13] = "obj_skill_pressureblast_ini";
+  global.__objectNames[14] = "obj_skill_poisonshot";
+  global.__objectNames[15] = "obj_skill_duskball";
+  global.__objectNames[16] = "obj_skill_firestar";
+  global.__objectNames[17] = "obj_skill_watersphere";
+  global.__objectNames[18] = "obj_skill_blazetower";
+  global.__objectNames[19] = "obj_skill_iceshot";
+  global.__objectNames[20] = "obj_skill_rockshot";
+  global.__objectNames[21] = "obj_skill_sparkshot";
+  global.__objectNames[22] = "obj_skill_aircutter";
+  global.__objectNames[23] = "obj_skill_duowinds";
+  global.__objectNames[24] = "obj_skill_ram";
+  global.__objectNames[25] = "obj_skill_slash";
+  global.__objectNames[26] = "obj_skill_heatup";
+  global.__objectNames[27] = "obj_damage_display";
+  global.__objectNames[28] = "obj_health_display";
+  global.__objectNames[29] = "obj_experience_display";
+  global.__objectNames[30] = "obj_energy_display";
+  global.__objectNames[31] = "obj_info_display";
+  global.__objectNames[32] = "obj_foe_parrent";
+  global.__objectNames[33] = "obj_foe0";
+  global.__objectNames[34] = "obj_npc";
+  global.__objectNames[35] = "obj_intro_menu";
+  global.__objectNames[36] = "obj_into_agcreate";
+  global.__objectNames[37] = "obj_prop_tree";
+  global.__objectNames[38] = "obj_prop_raft";
+  global.__objectNames[39] = "obj_inventory_obj";
+  global.__objectNames[40] = "obj_misc_atmosphere";
+  global.__objectNames[41] = "obj_atmosphere_cave";
+  global.__objectNames[42] = "obj_game_tran0";
+  global.__objectNames[43] = "obj_game_tran1";
+  global.__objectNames[44] = "obj_menu_textinput";
+  global.__objectNames[45] = "obj_text_window";
+  global.__objectNames[46] = "obj_text_lvmessage";
+  global.__objectNames[47] = "obj_text_itemmessage";
+  global.__objectNames[48] = "obj_game_tutorial";
+  global.__objectNames[49] = "obj_game_cutscene";
+  global.__objectNames[50] = "obj_misc_blind";
+  global.__objectNames[51] = "obj_teleport";
+  global.__objectNames[52] = "obj_block";
+  global.__objectNames[53] = "obj_atkblock";
+  global.__objectNames[54] = "obj_event_trigger";
+  global.__objectNames[55] = "obj_event_prevent";
+  global.__objectNames[56] = "obj_event_detect";
+  global.__objectNames[57] = "obj_randomitemgen";
+  global.__objectNames[58] = "obj_comentary";
+  global.__objectNames[59] = "obj_music_control";
+
+  // create another array that has the correct entries
+  var len = array_length(global.__objectDepths);
+  global.__objectID2Depth = [];
+  for (var i = 0; i < len; ++i) {
+    var objID = asset_get_index(global.__objectNames[i]);
+    if (objID >= 0) {
+      global.__objectID2Depth[objID] = global.__objectDepths[i];
+    } // end if
+  } // end for
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"beast_create_foe",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"beast_create_foe",
+  "parent":{
+    "name":"Beasts",
+    "path":"folders/Scripts/Beasts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

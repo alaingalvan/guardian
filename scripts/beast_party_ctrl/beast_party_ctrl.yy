@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"beast_party_ctrl",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"beast_party_ctrl",
+  "parent":{
+    "name":"Beasts",
+    "path":"folders/Scripts/Beasts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

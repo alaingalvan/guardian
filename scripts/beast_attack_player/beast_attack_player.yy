@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"beast_attack_player",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"beast_attack_player",
+  "parent":{
+    "name":"Beasts",
+    "path":"folders/Scripts/Beasts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

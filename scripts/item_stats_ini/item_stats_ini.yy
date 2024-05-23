@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"item_stats_ini",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"item_stats_ini",
+  "parent":{
+    "name":"Item",
+    "path":"folders/Scripts/Item.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

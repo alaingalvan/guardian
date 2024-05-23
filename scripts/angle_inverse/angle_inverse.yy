@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"angle_inverse",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"angle_inverse",
+  "parent":{
+    "name":"Control",
+    "path":"folders/Scripts/Control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"beast_skills_ini",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"beast_skills_ini",
+  "parent":{
+    "name":"Beasts",
+    "path":"folders/Scripts/Beasts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

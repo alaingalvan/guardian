@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"npc_walk",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"npc_walk",
+  "parent":{
+    "name":"Control",
+    "path":"folders/Scripts/Control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

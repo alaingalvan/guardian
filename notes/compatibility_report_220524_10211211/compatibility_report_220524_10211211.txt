@@ -1,0 +1,433 @@
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\scripts\beast_party_ini\beast_party_ini.gml
+Converted description /// @description ////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\scripts\beast_party_ctrl\beast_party_ctrl.gml
+Converted description /// @description ////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\scripts\beast_party_lvup\beast_party_lvup.gml
+Converted description /// @description ////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\scripts\beast_party_refresh\beast_party_refresh.gml
+Converted description /// @description ////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\scripts\beast_teleport\beast_teleport.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\scripts\fix_view_position\fix_view_position.gml
+Converted builtin - line 7: view_xview[n] -> __view_get( e__VW.XView, n )
+Converted builtin - line 10: view_xview[n] -> __view_get( e__VW.XView, n )
+Converted builtin - line 8: view_yview[n] -> __view_get( e__VW.YView, n )
+Converted builtin - line 11: view_yview[n] -> __view_get( e__VW.YView, n )
+Converted builtin - line 7: view_wview[n] -> __view_get( e__VW.WView, n )
+Converted builtin - line 10: view_wview[n] -> __view_get( e__VW.WView, n )
+Converted builtin - line 8: view_hview[n] -> __view_get( e__VW.HView, n )
+Converted builtin - line 11: view_hview[n] -> __view_get( e__VW.HView, n )
+Converted builtin - line 7: view_hborder[n] -> __view_get( e__VW.HBorder, n )
+Converted builtin - line 7: view_hborder[n] -> __view_get( e__VW.HBorder, n )
+Converted builtin - line 8: view_vborder[n] -> __view_get( e__VW.VBorder, n )
+Converted builtin - line 8: view_vborder[n] -> __view_get( e__VW.VBorder, n )
+Converted builtin - line 4: view_object[n] -> __view_get( e__VW.Object, n )
+Converted builtin - line 7: view_object[n] -> __view_get( e__VW.Object, n )
+Converted builtin - line 7: view_object[n] -> __view_get( e__VW.Object, n )
+Converted builtin - line 8: view_object[n] -> __view_get( e__VW.Object, n )
+Converted builtin - line 8: view_object[n] -> __view_get( e__VW.Object, n )
+Converted builtin - line 7: view_xview[n] = max(min(__view_get( e__VW.XView, n ), __view_get( e__VW.Object, n ).x - __view_get( e__VW.HBorder, n )), __view_get( e__VW.Object, n ).x + __view_get( e__VW.HBorder, n ) - __view_get( e__VW.WView, n )) -> __view_set( e__VW.XView, n, max(min(__view_get( e__VW.XView, n ), __view_get( e__VW.Object, n ).x - __view_get( e__VW.HBorder, n )), __view_get( e__VW.Object, n ).x + __view_get( e__VW.HBorder, n ) - __view_get( e__VW.WView, n )) )
+Converted builtin - line 10: view_xview[n] = max(0, min(room_width - __view_get( e__VW.WView, n ), __view_get( e__VW.XView, n ))) -> __view_set( e__VW.XView, n, max(0, min(room_width - __view_get( e__VW.WView, n ), __view_get( e__VW.XView, n ))) )
+Converted builtin - line 8: view_yview[n] = max(min(__view_get( e__VW.YView, n ), __view_get( e__VW.Object, n ).y - __view_get( e__VW.VBorder, n )), __view_get( e__VW.Object, n ).y + __view_get( e__VW.VBorder, n ) - __view_get( e__VW.HView, n )) -> __view_set( e__VW.YView, n, max(min(__view_get( e__VW.YView, n ), __view_get( e__VW.Object, n ).y - __view_get( e__VW.VBorder, n )), __view_get( e__VW.Object, n ).y + __view_get( e__VW.VBorder, n ) - __view_get( e__VW.HView, n )) )
+Converted builtin - line 11: view_yview[n] = max(0, min(room_height - __view_get( e__VW.HView, n ), __view_get( e__VW.YView, n ))) -> __view_set( e__VW.YView, n, max(0, min(room_height - __view_get( e__VW.HView, n ), __view_get( e__VW.YView, n ))) )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\scripts\view_deactivate\view_deactivate.gml
+Converted builtin - line 14: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 14: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 14: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\scripts\pause_deactivate\pause_deactivate.gml
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\scripts\beast_party_load\beast_party_load.gml
+Converted description /// @description ////////////////////////////////////////////////////////////////////////////
+
+GameMaker Studio 1 font texture has been backed up at D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\fonts\fon_main\fon_main.gms1.png
+GameMaker Studio 1 font texture has been backed up at D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\fonts\fon_damage\fon_damage.gms1.png
+GameMaker Studio 1 font texture has been backed up at D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\fonts\fon_health\fon_health.gms1.png
+GameMaker Studio 1 font texture has been backed up at D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\fonts\fon_energy\fon_energy.gms1.png
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_player\Step_0.gml
+Converted description /// @description ////////////////////////////////////////////////////////////////////////////
+String not found: ConversionLog_ConvertedString 65 'X' "X"
+String not found: ConversionLog_ConvertedString 87 'A' "A"
+String not found: ConversionLog_ConvertedString 109 'S' "S"
+String not found: ConversionLog_ConvertedString 260 '1' "1"
+String not found: ConversionLog_ConvertedString 261 '2' "2"
+String not found: ConversionLog_ConvertedString 262 '3' "3"
+String not found: ConversionLog_ConvertedString 263 '4' "4"
+String not found: ConversionLog_ConvertedString 264 '5' "5"
+String not found: ConversionLog_ConvertedString 265 '6' "6"
+String not found: ConversionLog_ConvertedString 267 'L' "L"
+String not found: ConversionLog_ConvertedString 268 'O' "O"
+String not found: ConversionLog_ConvertedString 269 'N' "N"
+String not found: ConversionLog_ConvertedString 270 'T' "T"
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu_item\Step_0.gml
+String not found: ConversionLog_ConvertedString 5 'X' "X"
+String not found: ConversionLog_ConvertedString 9 'Z' "Z"
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu_item\Draw_0.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 14: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 15: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 14: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu_saveload\Step_0.gml
+String not found: ConversionLog_ConvertedString 5 'X' "X"
+String not found: ConversionLog_ConvertedString 7 'Z' "Z"
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu_saveload\Draw_0.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu_skill\Step_0.gml
+String not found: ConversionLog_ConvertedString 5 'X' "X"
+String not found: ConversionLog_ConvertedString 10 'Z' "Z"
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu_skill\Draw_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu_stat\Step_0.gml
+Converted description /// @description ////////////////////////////////////////////////////////////////////////////
+String not found: ConversionLog_ConvertedString 8 'X' "X"
+String not found: ConversionLog_ConvertedString 30 'Z' "Z"
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu_stat\Draw_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu\Create_0.gml
+Converted builtin - line 16: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 16: view_wview -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu\Step_0.gml
+String not found: ConversionLog_ConvertedString 164 'Z' "Z"
+String not found: ConversionLog_ConvertedString 232 'X' "X"
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu\Draw_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 24: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 25: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 32: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 34: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 36: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 39: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 40: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 41: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 42: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 44: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 45: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 46: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 47: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 49: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 50: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 51: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 52: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 54: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 60: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 61: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 62: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 63: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 64: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 65: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 92: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 93: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 99: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 100: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 102: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 103: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 104: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 105: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 108: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 114: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 115: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 117: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 118: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 119: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 120: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 122: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 123: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 124: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 125: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 128: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 25: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 26: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 32: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 34: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 36: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 39: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 40: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 41: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 42: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 44: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 45: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 46: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 47: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 49: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 50: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 51: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 52: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 54: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 60: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 61: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 62: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 63: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 64: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 65: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 92: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 93: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 99: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 100: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 102: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 103: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 104: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 105: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 108: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 114: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 115: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 117: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 118: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 119: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 120: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 122: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 123: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 124: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 125: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 128: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_npc\Step_0.gml
+String not found: ConversionLog_ConvertedString 13 'Z' "Z"
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_intro_menu\Step_0.gml
+Converted description /// @description ////////////////////////////////////////////////////////////////////////////
+String not found: ConversionLog_ConvertedString 20 'Z' "Z"
+String not found: ConversionLog_ConvertedString 56 'Z' "Z"
+String not found: ConversionLog_ConvertedString 118 'X' "X"
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_intro_menu\Draw_0.gml
+Converted builtin - line 8: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 17: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 24: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 25: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 27: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 31: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 33: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 34: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 35: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 36: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 37: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 38: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 59: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 60: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 61: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 65: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 66: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 67: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 76: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 17: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 24: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 25: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 26: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 27: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 31: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 33: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 34: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 35: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 36: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 37: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 38: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 59: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 60: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 61: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 65: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 66: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 67: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 76: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description ////////////////////////////////////////////////////////////////////////////
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_into_agcreate\Draw_0.gml
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_misc_atmosphere\Draw_0.gml
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_atmosphere_cave\Draw_0.gml
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_game_tran0\Draw_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_game_tran1\Draw_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu_textinput\Step_0.gml
+String not found: ConversionLog_ConvertedString 17 'Z' "Z"
+String not found: ConversionLog_ConvertedString 203 'X' "X"
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_menu_textinput\Draw_0.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_text_window\Step_1.gml
+String not found: ConversionLog_ConvertedString 3 'Z' "Z"
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_text_window\Draw_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_text_lvmessage\Draw_0.gml
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_text_itemmessage\Draw_0.gml
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_game_cutscene\Draw_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_misc_blind\Draw_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_teleport\Step_0.gml
+String not found: ConversionLog_ConvertedString 9 'Z' "Z"
+
+Converting GML script: D:\Documents\GameMaker\Projects\Guardian14.gmx\mvc\objects\obj_comentary\Step_0.gml
+String not found: ConversionLog_ConvertedString 11 'Z' "Z"
+
+Missing audiogroup for sound: 'sou_sfx_ice1' - setting to default audio group
+Missing audiogroup for sound: 'sou_sfx_fire1' - setting to default audio group
+Missing audiogroup for sound: 'sou_sfx_water0' - setting to default audio group
+Missing audiogroup for sound: 'sou_sfx_sky0' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action\action_end_game.gml'
+Added compatibility script 'action\action_kill_object.gml'
+Added compatibility script 'action\action_restart_game.gml'
+Added compatibility script 'action\action_set_alarm.gml'
+Added compatibility script 'action\action_set_gravity.gml'
+Added compatibility script 'action\action_set_vspeed.gml'
+Added compatibility script 'action\action_sound.gml'
+Added compatibility script 'background\draw_background_ext.gml'
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script 'view\__view_get.gml'
+Added compatibility script 'view\__view_set.gml'
+Added compatibility script 'view\__view_set_internal.gml'
+Added compatibility script 'action\__init_action.gml'
+Added compatibility script 'background\__init_background.gml'
+Added compatibility script 'view\__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
