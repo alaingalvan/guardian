@@ -1,22 +1,7 @@
-function draw_text_ext_alpha(
-  argument0,
-  argument1,
-  argument2,
-  argument3,
-  argument4,
-  argument5
-) {
-  //draw_text_ext_alpha(x,y,string,sep,w,alpha)
-
-  var xx, yy, str, sep, w, alpha;
-  xx = real(argument0);
-  yy = real(argument1);
-  str = string(argument2);
-  sep = real(argument3);
-  w = real(argument4);
-  alpha = argument5;
-
-  draw_set_alpha(alpha);
-  draw_text_ext(xx, yy, string_hash_to_newline(str), sep, w);
-  draw_set_alpha(alpha);
+function draw_text_ext_alpha(_xx, _yy, _str, _sep, _w, _alpha) {
+  var _prev_alpha;
+  _prev_alpha = draw_get_alpha();
+  draw_set_alpha(_alpha);
+  draw_text_ext(_xx, _yy, string_hash_to_newline(_str), _sep, _w);
+  draw_set_alpha(_prev_alpha);
 }

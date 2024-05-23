@@ -1,4 +1,5 @@
 global.menuon = false;
+depth = -10000;
 //Menu Selection Vars
 //main menu.
 menu_max = 3; //Var that determines the size of the menu.

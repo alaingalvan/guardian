@@ -2,6 +2,9 @@
 //INFO BAR
 //The Following is the info bar on the top of the view.
 
+var _depth = gpu_get_depth();
+gpu_set_depth(-10000);
+
 draw_set_font(fon_main);
 draw_set_color(c_white);
 draw_background_ext(
@@ -704,6 +707,8 @@ if (cur_menu == 4) {
     (al - tal) * 0.5
   );
 }
+
+gpu_set_depth(_depth);
 
 /*
 //draw_set_alpha(1)

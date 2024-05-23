@@ -26,16 +26,8 @@ if (active == true) {
     var _cre;
     _cre = instance_create(0, 0, obj_game_tran0);
     _cre.eventstring = function() {
-      instance_destroy();
       global.cutscene = false;
-      obj_teleport.tele = true;
+      beast_teleport(dest_room, dest_x, dest_y);
+      }
     };
   }
-
-  if (tele == true) {
-    active = false;
-    doonce = false;
-    obj_teleport.tele = false;
-    beast_teleport(dest_room, dest_x, dest_y);
-  }
-}

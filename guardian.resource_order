@@ -157,7 +157,6 @@
     {"name":"beast_teleport","order":11,"path":"scripts/beast_teleport/beast_teleport.yy",},
     {"name":"draw_text_ext_alpha","order":1,"path":"scripts/draw_text_ext_alpha/draw_text_ext_alpha.yy",},
     {"name":"draw_text_ext_outline","order":2,"path":"scripts/draw_text_ext_outline/draw_text_ext_outline.yy",},
-    {"name":"draw_wave_freq(x,y,freq,amp,time,speed);","order":8,"path":"scripts/draw_wave_freq(x,y,freq,amp,time,speed);/draw_wave_freq(x,y,freq,amp,time,speed);.yy",},
     {"name":"fix_view_position","order":3,"path":"scripts/fix_view_position/fix_view_position.yy",},
     {"name":"item_add","order":2,"path":"scripts/item_add/item_add.yy",},
     {"name":"item_sort","order":3,"path":"scripts/item_sort/item_sort.yy",},

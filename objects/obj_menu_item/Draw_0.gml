@@ -1,3 +1,6 @@
+var _depth = gpu_get_depth();
+gpu_set_depth(-10010);
+
 if (instore == false) {
   if (cur_itemtype == 0) {
     draw_sprite_ext(
@@ -111,3 +114,5 @@ if (instore == true) {
     al * 0.5
   );
 }
+
+gpu_set_depth(_depth);

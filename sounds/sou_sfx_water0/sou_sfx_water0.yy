@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.467596,
   "name":"sou_sfx_water0",
   "parent":{
     "name":"SFX",

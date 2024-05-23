@@ -1,4 +1,5 @@
-depth = -(y + sprite_height);
+event_inherited();
+depth = -(y + sprite_height) / 16;
 image_index = random(2);
 image_speed = 0.4;
 

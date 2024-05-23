@@ -6,18 +6,18 @@
 //MENU INITIALIZE
 ///////////////////////////////////////////////////////////////////////////////
 draw_text_ext_alpha(
-  __view_get(e__VW.XView, 0) + 192,
+  __view_get(e__VW.XView, 0) + 180,
   __view_get(e__VW.YView, 0) + 256,
-  "Press    to begin.",
+  "Press any key to begin.",
   12,
   256,
   0.5 - al
 );
-draw_sprite_ext(spr_misc_messages, 1, 225, 256, 1, 1, 0, c_white, 1 - al);
+
 draw_text_ext_alpha(
-  __view_get(e__VW.XView, 0) + 408,
+  __view_get(e__VW.XView, 0) + 400,
   __view_get(e__VW.YView, 0) + 304,
-  "Version 1.4",
+  "Version 1.5",
   12,
   256,
   al * 0.5
@@ -114,14 +114,15 @@ switch (cur_menu) {
       c_white,
       al - tal
     );
-
     draw_sprite_ext(
       asset_get_index(
-        "spr_" + global.beast_stats[global.beast_id, 0] + "_right0"
+        "spr_" +
+        global.beast_stats[global.beast_id, 0] +
+        "_right0"
       ),
       0,
-      view_xview + 56,
-      view_yview + 88,
+      __view_get(e__VW.XView, 0) + 56,
+      __view_get(e__VW.YView, 0) + 88,
       1,
       1,
       0,

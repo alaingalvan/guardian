@@ -1,6 +1,5 @@
-function beast_teleport(argument0, argument1, argument2) {
-  //beast_teleport(room,x,y);
-  room_goto(argument0);
+function beast_teleport(_room, _x, _y) {
+  room_goto(_room);
   global.teleportx[0] = obj_player.x;
   global.teleporty[0] = obj_player.y;
 
@@ -10,8 +9,6 @@ function beast_teleport(argument0, argument1, argument2) {
     global.teleporty[0] -= __view_get(e__VW.YView, 0);
   }
 
-  obj_player.x = argument1;
-  obj_player.y = argument2;
-
-  //global.cutscene=false
+  obj_player.x = _x;
+  obj_player.y = _y;
 }

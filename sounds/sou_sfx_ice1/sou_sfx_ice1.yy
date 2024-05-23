@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.389229,
   "name":"sou_sfx_ice1",
   "parent":{
     "name":"SFX",

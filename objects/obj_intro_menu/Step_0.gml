@@ -57,7 +57,7 @@ if (switchon == true) {
 //MENU INITIALIZE
 ///////////////////////////////////////////////////////////////////////////////
 if (menuon == false && !instance_exists(obj_menu_textinput)) {
-  if (keyboard_check_pressed(ord("Z"))) {
+  if (keyboard_check_pressed(vk_anykey)) {
     menuon = true;
     io_clear();
   }

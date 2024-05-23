@@ -7,20 +7,20 @@ a.target = target;
 b.target = target;
 c.target = target;
 d.target = target;
-if (variable_local_exists("foepwr")) {
-  a.foepwr = foepwr;
-  b.foepwr = foepwr;
-  c.foepwr = foepwr;
-  d.foepwr = foepwr;
 
-  a.foedef = foedef;
-  b.foedef = foedef;
-  c.foedef = foedef;
-  d.foedef = foedef;
+a.foepwr = foepwr;
+b.foepwr = foepwr;
+c.foepwr = foepwr;
+d.foepwr = foepwr;
 
-  a.foeid = foeid;
-  b.foeid = foeid;
-  c.foeid = foeid;
-  d.foeid = foeid;
-}
+a.foedef = foedef;
+b.foedef = foedef;
+c.foedef = foedef;
+d.foedef = foedef;
+
+a.foeid = foeid;
+b.foeid = foeid;
+c.foeid = foeid;
+d.foeid = foeid;
+
 instance_destroy();

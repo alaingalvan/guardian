@@ -7,8 +7,8 @@ with (_j) {
     _aa = instance_create(0, 0, obj_game_tran1);
     with (_aa) {
       eventstring = function() {
-        instance_destroy();
         global.cutscene = false;
+        instance_destroy();
       };
     }
     with (obj_game_cutscene) {

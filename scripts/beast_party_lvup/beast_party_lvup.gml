@@ -97,7 +97,7 @@ function beast_party_lvup() {
   //SKILL LEARNING
   ///////////////////////////////////////////////////////////////////////////////
   var _skl, _nm, _oj;
-  for (skl = 0; _skl <= global.maxskill; _skl += 1)
+  for (_skl = 0; _skl <= global.maxskill; _skl += 1)
     if (
       global.beast_party[5] >= global.beast_skills[_skl, 2] &&
       global.beast_skills[_skl, 1] == 0

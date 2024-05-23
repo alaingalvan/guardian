@@ -1,4 +1,5 @@
 io_clear();
+depth = -10010;
 menuon = true;
 al = 0; //Alpha Var
 add = 1;

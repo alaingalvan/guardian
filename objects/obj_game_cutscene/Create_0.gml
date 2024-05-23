@@ -5,7 +5,7 @@
 //Alarm 0 fades in and fades out and destroys this object.
 
 //if cur_event=0 - Opening scene.
-
+depth = -11000;
 timerone = 0;
 event_on = false;
 doonce = false;

@@ -38,7 +38,6 @@ if (keyboard_check_pressed(ord("Z"))) {
       with (_j) {
         eventstring = function() {
           beast_load();
-          instance_destroy();
         };
       }
       menuon = false;

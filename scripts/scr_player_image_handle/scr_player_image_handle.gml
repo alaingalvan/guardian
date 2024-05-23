@@ -6,7 +6,7 @@ function scr_player_image_handle() {
 
   //Determine if the NPC has moved
   if (x != xprevious || y != yprevious) {
-    depth = -y;
+    depth = -y / 16;
     _cycle = 1;
     lastdir = point_direction(xprevious, yprevious, x, y);
   } else {

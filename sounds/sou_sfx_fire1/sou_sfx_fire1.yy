@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":2.315397,
   "name":"sou_sfx_fire1",
   "parent":{
     "name":"SFX",

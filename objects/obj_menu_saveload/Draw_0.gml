@@ -1,3 +1,6 @@
+var _depth = gpu_get_depth();
+gpu_set_depth(-10010);
+
 draw_set_halign(fa_center);
 
 if (cur_mode == 0) {
@@ -24,3 +27,4 @@ if (cur_mode == 1) {
 }
 
 draw_set_halign(fa_left);
+gpu_set_depth(_depth);

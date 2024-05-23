@@ -11,7 +11,8 @@ dest_y=
 active = false; //Var for if the player has the option of teleporting.
 check = false; //Var for if the player chooses to.
 doonce = false; //Var for creating transition
-tele = false; //Var for Exicuting Teleport
+tele = false; //Var for Executing Teleport
 
-/* */
-/*  */
+dest_room = solrec0;
+dest_x = 0
+dest_y = 0

@@ -1,4 +1,3 @@
-//draw_set_blend_mode(bm_add)
 draw_sprite_ext(
   sprite_index,
   0,
@@ -10,4 +9,3 @@ draw_sprite_ext(
   c_white,
   1
 );
-//draw_set_blend_mode(bm_normal)

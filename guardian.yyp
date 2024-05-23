@@ -205,7 +205,6 @@
     {"id":{"name":"draw_sprite_blur_ext","path":"scripts/draw_sprite_blur_ext/draw_sprite_blur_ext.yy",},},
     {"id":{"name":"draw_text_ext_alpha","path":"scripts/draw_text_ext_alpha/draw_text_ext_alpha.yy",},},
     {"id":{"name":"draw_text_ext_outline","path":"scripts/draw_text_ext_outline/draw_text_ext_outline.yy",},},
-    {"id":{"name":"draw_wave_freq(x,y,freq,amp,time,speed);","path":"scripts/draw_wave_freq(x,y,freq,amp,time,speed);/draw_wave_freq(x,y,freq,amp,time,speed);.yy",},},
     {"id":{"name":"fix_view_position","path":"scripts/fix_view_position/fix_view_position.yy",},},
     {"id":{"name":"game_ini","path":"scripts/game_ini/game_ini.yy",},},
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},},
