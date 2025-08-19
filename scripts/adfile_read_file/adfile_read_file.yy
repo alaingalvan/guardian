@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"adfile_read_file",
   "isCompatibility":false,
   "isDnD":false,

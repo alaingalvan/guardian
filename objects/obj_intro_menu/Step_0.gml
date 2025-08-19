@@ -1,6 +1,63 @@
-/// @description ////////////////////////////////////////////////////////////////////////////
-//MENU TRANSITIONS
-///////////////////////////////////////////////////////////////////////////////
+/// Menu Step
+var _check_left = keyboard_check(vk_left);
+var _check_right = keyboard_check(vk_right);
+var _check_up = keyboard_check(vk_up);
+var _check_down = keyboard_check(vk_down);
+var _check_z = keyboard_check(ord("Z"));
+var _check_x = keyboard_check(ord("X"));
+var _check_a = keyboard_check(ord("A"));
+var _check_s = keyboard_check(ord("S"));
+
+var _check_left_pressed = keyboard_check_pressed(vk_left);
+var _check_right_pressed = keyboard_check_pressed(vk_right);
+var _check_up_pressed = keyboard_check_pressed(vk_up);
+var _check_down_pressed = keyboard_check_pressed(vk_down);
+var _check_z_pressed = keyboard_check_pressed(ord("Z"));
+var _check_x_pressed = keyboard_check_pressed(ord("X"));
+var _check_a_pressed = keyboard_check_pressed(ord("A"));
+var _check_s_pressed = keyboard_check_pressed(ord("S"));
+
+var _check_left_released = keyboard_check_released(vk_left);
+var _check_right_released = keyboard_check_released(vk_right);
+var _check_up_released = keyboard_check_released(vk_up);
+var _check_down_released = keyboard_check_released(vk_down);
+var _check_z_released = keyboard_check_released(ord("Z"));
+var _check_x_released = keyboard_check_released(ord("X"));
+var _check_a_released = keyboard_check_released(ord("A"));
+var _check_s_released = keyboard_check_released(ord("S"));
+
+if (gamepad_is_supported()) {
+  _check_left |= gamepad_button_check(0, gp_padl);
+  _check_right |= gamepad_button_check(0, gp_padr);
+  _check_up |= gamepad_button_check(0, gp_padu);
+  _check_down |= gamepad_button_check(0, gp_padd);
+
+  _check_z |= gamepad_button_check(0, gp_face1);
+  _check_x |= gamepad_button_check(0, gp_face2);
+  _check_a |= gamepad_button_check(0, gp_face3);
+  _check_s |= gamepad_button_check(0, gp_face4);
+
+  _check_left_pressed |= gamepad_button_check_pressed(0, gp_padl);
+  _check_right_pressed |= gamepad_button_check_pressed(0, gp_padr);
+  _check_up_pressed |= gamepad_button_check_pressed(0, gp_padu);
+  _check_down_pressed |= gamepad_button_check_pressed(0, gp_padd);
+
+  _check_z_pressed |= gamepad_button_check_pressed(0, gp_face1);
+  _check_x_pressed |= gamepad_button_check_pressed(0, gp_face2);
+  _check_a_pressed |= gamepad_button_check_pressed(0, gp_face3);
+  _check_s_pressed |= gamepad_button_check_pressed(0, gp_face4);
+
+  _check_left_released |= gamepad_button_check_released(0, gp_padl);
+  _check_right_released |= gamepad_button_check_released(0, gp_padr);
+  _check_up_released |= gamepad_button_check_released(0, gp_padu);
+  _check_down_released |= gamepad_button_check_released(0, gp_padd);
+
+  _check_z_released |= gamepad_button_check_released(0, gp_face1);
+  _check_x_released |= gamepad_button_check_released(0, gp_face2);
+  _check_a_released |= gamepad_button_check_released(0, gp_face3);
+  _check_s_released |= gamepad_button_check_released(0, gp_face4);
+}
+
 if (menuon) {
   if (al < 1) {
     al += 0.1;
@@ -56,8 +113,9 @@ if (switchon == true) {
 ///////////////////////////////////////////////////////////////////////////////
 //MENU INITIALIZE
 ///////////////////////////////////////////////////////////////////////////////
+var _check_any_pressed = keyboard_check_pressed(vk_anykey);
 if (menuon == false && !instance_exists(obj_menu_textinput)) {
-  if (keyboard_check_pressed(vk_anykey)) {
+  if (_check_any_pressed) {
     menuon = true;
     io_clear();
   }
@@ -71,19 +129,19 @@ if (
   switchon == false &&
   !instance_exists(obj_menu_textinput)
 ) {
-  if (keyboard_check_pressed(vk_up)) {
+  if (_check_up_pressed) {
     if (cur_select > 0) {
       cur_select -= 1;
     }
   }
-  if (keyboard_check_pressed(vk_down)) {
+  if (_check_down_pressed) {
     if (cur_select < menu_max) {
       cur_select += 1;
     }
   }
 
   if (cur_menu == 2 && cur_select == 1) {
-    if (keyboard_check_pressed(vk_right)) {
+    if (_check_right_pressed) {
       switchon = true;
       switchstring = function () {
         if (global.beast_id < 6) {
@@ -93,7 +151,7 @@ if (
         }
       };
     }
-    if (keyboard_check_pressed(vk_left)) {
+    if (_check_left_pressed) {
       switchon = true;
       switchstring = function () {
         if (global.beast_id > 1) {
@@ -108,7 +166,7 @@ if (
   //MENU EVENTS
   ///////////////////////////////////////////////////////////////////////////////
   if (
-    keyboard_check_pressed(ord("Z")) &&
+    _check_z_pressed &&
     gotoon == false &&
     switchon == false &&
     !instance_exists(obj_menu_textinput)
@@ -194,7 +252,7 @@ if (
   //MENU EXITS
   ///////////////////////////////////////////////////////////////////////////////
   if (
-    keyboard_check_pressed(ord("X")) &&
+    _check_x_pressed &&
     gotoon == false &&
     switchon == false &&
     !instance_exists(obj_menu_textinput)

@@ -2,4 +2,4 @@
 //Using the var "cur_event".
 //also, include the eventstring to see what is true or false.
 doonce = false;
-eventstring = function() {};
+eventstring = function () {};

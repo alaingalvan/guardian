@@ -1,47 +1,50 @@
+var _check_z_released = keyboard_check_released(ord("Z"));
+if (gamepad_is_supported()) {
+  _check_z_released |= gamepad_button_check_released(0, gp_face1);
+}
+
 if (ini) {
+  // Maintain constant timer for dialog windows.
+  var _dt = delta_time / 1000000;
+  time_since_last_text_window = clamp(time_since_last_text_window + _dt, 0, 10);
+
   if (global.cutscene == false) {
     if (move == true) {
       npc_walk(obj_block, 16, 16);
     }
 
-    if (
-      collision_rectangle(
-        x - 15,
-        y,
-        x + 31,
-        y + 15,
-        obj_player,
-        false,
-        false
-      ) ||
-      collision_rectangle(x, y - 15, x + 15, y + 31, obj_player, false, false)
-    ) {
+    var _in_region_y = collision_rectangle(
+      x - 15,
+      y,
+      x + 31,
+      y + 15,
+      obj_player,
+      false,
+      false
+    );
+    var _in_region_x = collision_rectangle(
+      x,
+      y - 15,
+      x + 15,
+      y + 31,
+      obj_player,
+      false,
+      false
+    );
+
+    var _in_region = _in_region_y || _in_region_x;
+
+    if (_in_region) {
       check = true;
     } else {
       check = false;
     }
 
     if (
-      collision_rectangle(
-        x - 15,
-        y,
-        x + 31,
-        y + 15,
-        obj_player,
-        false,
-        false
-      ) ||
-      (collision_rectangle(
-        x,
-        y - 15,
-        x + 15,
-        y + 31,
-        obj_player,
-        false,
-        false
-      ) &&
-        keyboard_check_pressed(ord("Z")) &&
-        !instance_exists(obj_text_window))
+      _in_region &&
+      _check_z_released &&
+      !instance_exists(obj_text_window) &&
+      time_since_last_text_window > 0.5
     ) {
       action = true;
       lastdir = angle_4dir(point_direction(x, y, obj_player.x, obj_player.y));

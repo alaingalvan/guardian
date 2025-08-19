@@ -204,13 +204,9 @@ if (menustop == false && global.cutscene == false) {
           break;
         case 1: //Bag
           if (
-            global.itemstats[
-              global.inventory[
-                global.inventoryline[0],
-                global.inventoryline[1] + cur_select - trecheck
-              ],
-              0
-            ] > 0
+            global.itemstats[global.inventory[global.inventoryline[0],
+                global.inventoryline[1] + cur_select - trecheck],
+              0] > 0
           ) {
             menustop = true;
             instance_create(0, 0, obj_menu_item);

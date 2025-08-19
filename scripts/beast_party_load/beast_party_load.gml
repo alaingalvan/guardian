@@ -191,7 +191,7 @@ function beast_party_load() {
         "_down" +
         string(global.beast_age)
     );
-    
+
     cur_sprite = sprdown;
   }
 }

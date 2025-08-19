@@ -26,7 +26,7 @@ function item_stats_ini() {
 
   global.itemstats[1, 4] = 0; //Pocket (0=battle,1=Common,2=Key)
 
-  global.itemstats[1, 5] = function() {
+  global.itemstats[1, 5] = function () {
     if (global.beast_party[7] < global.beast_party[8]) {
       global.beast_party[7] += 50;
     } else {
@@ -49,7 +49,7 @@ function item_stats_ini() {
 
   global.itemstats[2, 5] =
     //Effect
-    function() {
+    function () {
       if (
         global.beast_party[7] < global.beast_party[8] ||
         global.beast_party[10] < global.beast_party[11]
@@ -76,7 +76,7 @@ function item_stats_ini() {
 
   global.itemstats[3, 5] =
     //Effect
-    function() {
+    function () {
       if (
         global.beast_party[7] < global.beast_party[8] ||
         global.beast_party[10] < global.beast_party[11]
@@ -102,7 +102,7 @@ function item_stats_ini() {
 
   global.itemstats[4, 5] =
     //Effect
-    function() {
+    function () {
       if (global.beast_party[10] < global.beast_party[11]) {
         global.beast_party[10] += 50;
       } else {
@@ -124,7 +124,7 @@ function item_stats_ini() {
 
   global.itemstats[5, 5] =
     //Effect
-    function() {
+    function () {
       if (global.beast_party[7] < global.beast_party[8]) {
         global.beast_party[7] += 300;
       } else {
@@ -147,7 +147,7 @@ function item_stats_ini() {
 
   global.itemstats[6, 5] =
     //Effect
-    function() {
+    function () {
       if (
         global.beast_party[7] < global.beast_party[8] ||
         global.beast_party[10] < global.beast_party[11]
@@ -174,7 +174,7 @@ function item_stats_ini() {
 
   global.itemstats[7, 5] =
     //Effect
-    function() {
+    function () {
       if (
         global.beast_party[7] < global.beast_party[8] ||
         global.beast_party[10] < global.beast_party[11]
@@ -202,7 +202,7 @@ function item_stats_ini() {
 
   global.itemstats[8, 5] =
     //Effect
-    function() {
+    function () {
       if (
         global.beast_party[7] < global.beast_party[8] ||
         global.beast_party[10] < global.beast_party[11]
@@ -228,7 +228,7 @@ function item_stats_ini() {
 
   global.itemstats[9, 5] =
     //Effect
-    function() {
+    function () {
       if (global.beast_party[10] < global.beast_party[11]) {
         global.beast_party[10] += 300;
       } else {
@@ -251,7 +251,7 @@ function item_stats_ini() {
 
   global.itemstats[10, 5] =
     //Effect
-    function() {
+    function () {
       if (
         global.beast_party[7] < global.beast_party[8] ||
         global.beast_party[10] < global.beast_party[11]
@@ -278,7 +278,7 @@ function item_stats_ini() {
 
   global.itemstats[11, 5] =
     //Effect
-    function() {
+    function () {
       if (
         global.beast_party[7] < global.beast_party[8] ||
         global.beast_party[10] < global.beast_party[11]
@@ -305,7 +305,7 @@ function item_stats_ini() {
 
   global.itemstats[12, 5] =
     //Effect
-    function() {
+    function () {
       if (
         global.beast_party[7] < global.beast_party[8] ||
         global.beast_party[10] < global.beast_party[11]

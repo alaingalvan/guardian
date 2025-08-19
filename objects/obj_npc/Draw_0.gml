@@ -1,4 +1,4 @@
-if (ini == true) {
+if (ini) {
   draw_sprite_ext(cur_sprite, image_index, x, y, 1, 1, 0, c_white, image_alpha);
   if (check == true && !instance_exists(obj_text_window)) {
     draw_sprite_ext(

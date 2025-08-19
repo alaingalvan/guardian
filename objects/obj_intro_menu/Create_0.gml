@@ -6,7 +6,7 @@ gotomenu = 0; //The menu that you wish to go to.
 gotoon = false; //If you are going to another menu.
 
 sal = 0; //Switching alpha var
-switchstring = function() {};
+switchstring = function () {};
 switchon = false;
 
 cur_select = 0; //The selection Var.

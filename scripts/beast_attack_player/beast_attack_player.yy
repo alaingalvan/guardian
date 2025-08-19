@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"beast_attack_player",
   "isCompatibility":false,
   "isDnD":false,

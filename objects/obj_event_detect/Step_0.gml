@@ -5,12 +5,12 @@ if (!instance_exists(obj_foe0)) {
     var _j;
     _j = instance_create(0, 0, obj_game_tran0);
     with (_j) {
-      eventstring = function() {
+      eventstring = function () {
         instance_destroy();
         var i, k;
         i = instance_create(0, 0, obj_game_tran1);
         with (i) {
-          eventstring = function() {
+          eventstring = function () {
             instance_destroy();
           };
         }

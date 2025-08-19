@@ -14,5 +14,5 @@ doonce = false; //Var for creating transition
 tele = false; //Var for Executing Teleport
 
 dest_room = solrec0;
-dest_x = 0
-dest_y = 0
+dest_x = 0;
+dest_y = 0;

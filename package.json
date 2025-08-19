@@ -9,7 +9,7 @@
   "author": "Alain Galvan <hi@alain.xyz>",
   "license": "MIT",
   "dependencies": {
-    "glob": "^10.3.14",
-    "prettier": "^3.2.5"
+    "glob": "^11.0.3",
+    "prettier": "^3.6.2"
   }
 }

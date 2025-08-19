@@ -2,12 +2,12 @@ global.cutscene = true;
 var _j;
 _j = instance_create(0, 0, obj_game_tran0);
 with (_j) {
-  eventstring = function() {
+  eventstring = function () {
     instance_destroy();
     var _i, _k;
     _i = instance_create(0, 0, obj_game_tran1);
     with (_i) {
-      eventstring = function() {
+      eventstring = function () {
         instance_destroy();
       };
     }

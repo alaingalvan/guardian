@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"beast_party_lvup",
   "isCompatibility":false,
   "isDnD":false,

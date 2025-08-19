@@ -45,5 +45,5 @@ timer = room_speed / 5;
 image_single = 0;
 image_alpha = 1;
 image_angle = 0;
-  
+
 scr_player_image_handle();

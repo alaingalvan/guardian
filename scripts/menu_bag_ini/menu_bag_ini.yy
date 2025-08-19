@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"menu_bag_ini",
   "isCompatibility":false,
   "isDnD":false,

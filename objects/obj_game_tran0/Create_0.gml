@@ -4,9 +4,8 @@
 depth = -11100;
 al = 0;
 doonce = false;
-if (instance_exists(obj_menu))
-{
+if (instance_exists(obj_menu)) {
   obj_menu.menustop = false;
 }
 
-eventstring = function() {}
+eventstring = function () {};

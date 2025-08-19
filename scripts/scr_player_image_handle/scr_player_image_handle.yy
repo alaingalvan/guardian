@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_player_image_handle",
   "isCompatibility":false,
   "isDnD":false,

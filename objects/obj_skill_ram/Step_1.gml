@@ -16,7 +16,7 @@ if (!doonce) {
       }
     }
   }
-  
+
   doonce = true;
   image_alpha = 1;
 }

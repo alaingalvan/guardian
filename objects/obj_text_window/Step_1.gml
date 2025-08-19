@@ -1,6 +1,10 @@
 //This checks if it should skip 'till the end of the current string, or jump to the next one, or end game if we reached the last string
+var _check_z_released = keyboard_check_released(ord("Z"));
+if (gamepad_is_supported()) {
+  _check_z_released |= gamepad_button_check_released(0, gp_face1);
+}
 
-if (keyboard_check_pressed(ord("Z"))) {
+if (_check_z_released) {
   if (pos < string_length(currentstr)) {
     pos = string_length(currentstr);
   } else {

@@ -51,20 +51,16 @@ if (keyboard_check_pressed(ord("Z"))) {
     }
     if (cur_select == 2) {
       //Drop
-      global.inventorystack[
-        global.inventoryline[0],
-        global.inventoryline[1] + obj_menu.cur_select - obj_menu.trecheck
-      ] -= 1;
+      global.inventorystack[global.inventoryline[0],
+        global.inventoryline[1] + obj_menu.cur_select - obj_menu.trecheck] -= 1;
       menuon = false;
       obj_menu.menustop = false;
       exit;
     }
     if (cur_select == 3) {
       //Drop All
-      global.inventorystack[
-        global.inventoryline[0],
-        global.inventoryline[1] + obj_menu.cur_select - obj_menu.trecheck
-      ] = 0;
+      global.inventorystack[global.inventoryline[0],
+        global.inventoryline[1] + obj_menu.cur_select - obj_menu.trecheck] = 0;
       menuon = false;
       obj_menu.menustop = false;
       exit;
@@ -81,20 +77,16 @@ if (keyboard_check_pressed(ord("Z"))) {
     }
     if (cur_select == 1) {
       //Drop
-      global.inventorystack[
-        global.inventoryline[0],
-        global.inventoryline[1] + obj_menu.cur_select - obj_menu.trecheck
-      ] -= 1;
+      global.inventorystack[global.inventoryline[0],
+        global.inventoryline[1] + obj_menu.cur_select - obj_menu.trecheck] -= 1;
       menuon = false;
       obj_menu.menustop = false;
       exit;
     }
     if (cur_select == 2) {
       //Drop All
-      global.inventorystack[
-        global.inventoryline[0],
-        global.inventoryline[1] + obj_menu.cur_select - obj_menu.trecheck
-      ] = 0;
+      global.inventorystack[global.inventoryline[0],
+        global.inventoryline[1] + obj_menu.cur_select - obj_menu.trecheck] = 0;
       menuon = false;
       obj_menu.menustop = false;
       exit;

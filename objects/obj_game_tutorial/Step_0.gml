@@ -9,8 +9,8 @@ if (dialouge == true) {
       with (_obj) {
         //---------------------------Text-------------------------------------\\
         //All strings must be named as str0, str1, str2, str3 etc. in order to work
-        str =
-          ["Welcome. You can skip this tutorial at any time by pressing C. Press Z to continue this dialogue.",
+        str = [
+          "Welcome. You can skip this tutorial at any time by pressing C. Press Z to continue this dialogue.",
 
           "You can move by using the arrow keys, try moving around. Please note that there are some areas you can't travel to, like the lake.",
 
@@ -22,7 +22,8 @@ if (dialouge == true) {
 
           "Every 5 levels, you learn a new skill, which you can assign to the X, A, and S buttons in the 'Edit Skills' Menu.",
 
-          "Now that the boring stuff is done with, lets get to actual fighting. There is an enemy by the lake, near a tree, attack using X or A. "];
+          "Now that the boring stuff is done with, lets get to actual fighting. There is an enemy by the lake, near a tree, attack using X or A. "
+        ];
         //Modify these two to customize this engine
         strmaxnumb = 6; //Max number of strings (Like, if str56 were the last string, this would just be 56)
         typespeed = 14; //Typing speed
@@ -41,10 +42,11 @@ if (dialouge == true) {
       with (_obj) {
         //---------------------------Text-------------------------------------\\
         //All strings must be named as str0, str1, str2, str3 ect. in order to work
-        str =
-          ["Good job, please note the text on the top of the screen. That is the status area, it tells you how much HP, EP, and EXP you have, as well as your level and name.",
+        str = [
+          "Good job, please note the text on the top of the screen. That is the status area, it tells you how much HP, EP, and EXP you have, as well as your level and name.",
           "Be sure to watch how much EP you have. EP, or Energy Points, is controls how many attacks you can deal. Each attack uses some EP. If you are out, using a herb or some medicine will restore EP.",
-          "Be sure to be use elements and attacks to your advantage. If you need more help, please refer to the online encyclopidia at www.agcreate.webs.com/guardian/info.html"];
+          "Be sure to be use elements and attacks to your advantage. If you need more help, please refer to the online encyclopidia at www.agcreate.webs.com/guardian/info.html"
+        ];
         //Modify these two to customize this engine
         strmaxnumb = 1; //Max number of strings (Like, if str56 were the last string, this would just be 56)
         typespeed = 14; //Typing speed

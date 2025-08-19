@@ -6,7 +6,7 @@ async function main() {
   let formatterPaths = ["./scripts/**/*.gml", "./objects/**/*.gml"];
 
   // GML <-> JS Mapping
-  let gml_ds_2d_getter = /\[\((.+)\)\]/g; // Prettier adds parens to 2D arrays.
+  let gml_ds_2d_getter = /\[\s*\(\s*([^\)]+)\s*\)\s*\]/g; // Prettier adds parens to 2D arrays.
   let gml_do_while = /(do\s+{\s*((.|\n)+)\s*})\s*until\s+\(/g; // GML do {} until () is the same as do while.
   let gml_multiline = /@"([^"]+)"/g; // @" <body> " - GML multiline strings start with @.
   let gml_accessor = /\[\s*@\s*([^\s]+)\s*\]/g; // [@ <identifier>] - defines an accessor, equivalent to C# get/set behavior for variables.
@@ -30,7 +30,8 @@ async function main() {
           parser: "typescript"
         });
 
-        // Convert back to GML:
+        // Convert back to GML (allow for up to 2 levels of recursion):
+        formatted = formatted.replaceAll(gml_ds_2d_getter, "[$1]"); // [(x,y)]
         formatted = formatted.replaceAll(gml_ds_2d_getter, "[$1]"); // [(x,y)]
         // do {} until () need a more complex grammar to parse.
         /*formatted = formatted.replaceAll(

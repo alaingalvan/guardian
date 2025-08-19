@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"skill_info_ini",
   "isCompatibility":false,
   "isDnD":false,

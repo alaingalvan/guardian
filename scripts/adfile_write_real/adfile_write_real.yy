@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"adfile_write_real",
   "isCompatibility":false,
   "isDnD":false,

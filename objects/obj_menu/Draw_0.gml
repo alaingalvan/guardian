@@ -153,9 +153,7 @@ if (cur_menu == 1) {
   //Item Sprites
   draw_sprite_ext(
     spr_inventory_obj,
-    global.itemstats[
-      global.inventory[global.inventoryline[0], global.inventoryline[1]], 0
-    ],
+    global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1]], 0],
     __view_get(e__VW.XView, 0),
     __view_get(e__VW.YView, 0) + 48,
     1,
@@ -166,10 +164,8 @@ if (cur_menu == 1) {
   );
   draw_sprite_ext(
     spr_inventory_obj,
-    global.itemstats[
-      global.inventory[global.inventoryline[0], global.inventoryline[1] + 1],
-      0
-    ],
+    global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1] + 1],
+      0],
     __view_get(e__VW.XView, 0),
     __view_get(e__VW.YView, 0) + 64,
     1,
@@ -180,10 +176,8 @@ if (cur_menu == 1) {
   );
   draw_sprite_ext(
     spr_inventory_obj,
-    global.itemstats[
-      global.inventory[global.inventoryline[0], global.inventoryline[1] + 2],
-      0
-    ],
+    global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1] + 2],
+      0],
     __view_get(e__VW.XView, 0),
     __view_get(e__VW.YView, 0) + 80,
     1,
@@ -194,10 +188,8 @@ if (cur_menu == 1) {
   );
   draw_sprite_ext(
     spr_inventory_obj,
-    global.itemstats[
-      global.inventory[global.inventoryline[0], global.inventoryline[1] + 3],
-      0
-    ],
+    global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1] + 3],
+      0],
     __view_get(e__VW.XView, 0),
     __view_get(e__VW.YView, 0) + 96,
     1,
@@ -210,9 +202,7 @@ if (cur_menu == 1) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 26,
     __view_get(e__VW.YView, 0) + 50,
-    global.itemstats[
-      global.inventory[global.inventoryline[0], global.inventoryline[1]], 2
-    ],
+    global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1]], 2],
     16,
     320,
     (al - tal) * 0.5
@@ -220,10 +210,8 @@ if (cur_menu == 1) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 26,
     __view_get(e__VW.YView, 0) + 66,
-    global.itemstats[
-      global.inventory[global.inventoryline[0], global.inventoryline[1] + 1],
-      2
-    ],
+    global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1] + 1],
+      2],
     16,
     320,
     (al - tal) * 0.5
@@ -231,10 +219,8 @@ if (cur_menu == 1) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 26,
     __view_get(e__VW.YView, 0) + 82,
-    global.itemstats[
-      global.inventory[global.inventoryline[0], global.inventoryline[1] + 2],
-      2
-    ],
+    global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1] + 2],
+      2],
     16,
     320,
     (al - tal) * 0.5
@@ -242,10 +228,8 @@ if (cur_menu == 1) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 26,
     __view_get(e__VW.YView, 0) + 98,
-    global.itemstats[
-      global.inventory[global.inventoryline[0], global.inventoryline[1] + 3],
-      2
-    ],
+    global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1] + 3],
+      2],
     16,
     320,
     (al - tal) * 0.5
@@ -258,70 +242,46 @@ if (cur_menu == 1) {
     16,
     320,
     (al - tal) *
-      global.itemstats[
-        global.inventory[global.inventoryline[0], global.inventoryline[1]],
-        0
-      ]
+      global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1]],
+        0]
   );
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 10,
     __view_get(e__VW.YView, 0) + 68,
-    global.inventorystack[
-      global.inventoryline[0], global.inventoryline[1] + 1
-    ],
+    global.inventorystack[global.inventoryline[0], global.inventoryline[1] + 1],
     16,
     320,
     (al - tal) *
-      global.itemstats[
-        global.inventory[
-          global.inventoryline[0], global.inventoryline[1] + 1
-        ],
-        0
-      ]
+      global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1] + 1],
+        0]
   );
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 10,
     __view_get(e__VW.YView, 0) + 84,
-    global.inventorystack[
-      global.inventoryline[0], global.inventoryline[1] + 2
-    ],
+    global.inventorystack[global.inventoryline[0], global.inventoryline[1] + 2],
     16,
     320,
     (al - tal) *
-      global.itemstats[
-        global.inventory[
-          global.inventoryline[0], global.inventoryline[1] + 2
-        ],
-        0
-      ]
+      global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1] + 2],
+        0]
   );
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 10,
     __view_get(e__VW.YView, 0) + 100,
-    global.inventorystack[
-      global.inventoryline[0], global.inventoryline[1] + 3
-    ],
+    global.inventorystack[global.inventoryline[0], global.inventoryline[1] + 3],
     16,
     320,
     (al - tal) *
-      global.itemstats[
-        global.inventory[
-          global.inventoryline[0], global.inventoryline[1] + 3
-        ],
-        0
-      ]
+      global.itemstats[global.inventory[global.inventoryline[0], global.inventoryline[1] + 3],
+        0]
   );
   //Desicription+Weight+Price
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 144,
     __view_get(e__VW.YView, 0) + 48,
-    global.itemstats[
-      global.inventory[
-        global.inventoryline[0],
-        global.inventoryline[1] + cur_select - trecheck
-      ],
-      3
-    ],
+    global.itemstats[global.inventory[global.inventoryline[0],
+        global.inventoryline[1] + cur_select - trecheck],
+      3],
     16,
     128,
     (al - tal) * 0.5
@@ -571,11 +531,9 @@ if (cur_menu == 4) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 26,
     __view_get(e__VW.YView, 0) + 50,
-    global.skill_info[
-      global.beast_skills[global.skillline, 0] *
+    global.skill_info[global.beast_skills[global.skillline, 0] *
         global.beast_skills[global.skillline, 1],
-      0
-    ],
+      0],
     16,
     320,
     (al - tal) * 0.5
@@ -583,11 +541,9 @@ if (cur_menu == 4) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 26,
     __view_get(e__VW.YView, 0) + 66,
-    global.skill_info[
-      global.beast_skills[global.skillline + 1, 0] *
+    global.skill_info[global.beast_skills[global.skillline + 1, 0] *
         global.beast_skills[global.skillline + 1, 1],
-      0
-    ],
+      0],
     16,
     320,
     (al - tal) * 0.5
@@ -595,11 +551,9 @@ if (cur_menu == 4) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 26,
     __view_get(e__VW.YView, 0) + 82,
-    global.skill_info[
-      global.beast_skills[global.skillline + 2, 0] *
+    global.skill_info[global.beast_skills[global.skillline + 2, 0] *
         global.beast_skills[global.skillline + 2, 1],
-      0
-    ],
+      0],
     16,
     320,
     (al - tal) * 0.5
@@ -607,11 +561,9 @@ if (cur_menu == 4) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 26,
     __view_get(e__VW.YView, 0) + 98,
-    global.skill_info[
-      global.beast_skills[global.skillline + 3, 0] *
+    global.skill_info[global.beast_skills[global.skillline + 3, 0] *
         global.beast_skills[global.skillline + 3, 1],
-      0
-    ],
+      0],
     16,
     320,
     (al - tal) * 0.5
@@ -667,40 +619,30 @@ if (cur_menu == 4) {
     __view_get(e__VW.XView, 0) + 144,
     __view_get(e__VW.YView, 0) + 48,
     "Element: " +
-      global.skill_info[
-        global.beast_skills[global.skillline + cur_select - trecheck, 1] *
+      global.skill_info[global.beast_skills[global.skillline + cur_select - trecheck, 1] *
           global.beast_skills[global.skillline + cur_select - trecheck, 0],
-        1
-      ] +
+        1] +
       "#" +
-      global.skill_info[
-        global.beast_skills[global.skillline + cur_select - trecheck, 1] *
+      global.skill_info[global.beast_skills[global.skillline + cur_select - trecheck, 1] *
           global.beast_skills[global.skillline + cur_select - trecheck, 0],
-        2
-      ] +
+        2] +
       "#PWR: " +
       string(
-        global.skill_info[
-          global.beast_skills[global.skillline + cur_select - trecheck, 1] *
+        global.skill_info[global.beast_skills[global.skillline + cur_select - trecheck, 1] *
             global.beast_skills[global.skillline + cur_select - trecheck, 0],
-          4
-        ]
+          4]
       ) +
       "#EP: " +
       string(
-        global.skill_info[
-          global.beast_skills[global.skillline + cur_select - trecheck, 1] *
+        global.skill_info[global.beast_skills[global.skillline + cur_select - trecheck, 1] *
             global.beast_skills[global.skillline + cur_select - trecheck, 0],
-          5
-        ]
+          5]
       ) +
       "#Cast Time: " +
       string(
-        global.skill_info[
-          global.beast_skills[global.skillline + cur_select - trecheck, 1] *
+        global.skill_info[global.beast_skills[global.skillline + cur_select - trecheck, 1] *
             global.beast_skills[global.skillline + cur_select - trecheck, 0],
-          6
-        ]
+          6]
       ),
     16,
     128,

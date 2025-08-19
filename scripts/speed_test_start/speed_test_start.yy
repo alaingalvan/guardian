@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"speed_test_start",
   "isCompatibility":false,
   "isDnD":false,

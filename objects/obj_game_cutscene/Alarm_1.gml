@@ -2,7 +2,7 @@ if (doonce == false) {
   doonce = true;
   switch (cur_event) {
     case 0:
-      alarmstring = function() {
+      alarmstring = function () {
         obj_player.lastdir = 90;
       };
       global.cutscene = true;
@@ -32,7 +32,7 @@ if (doonce == false) {
       break;
     case 1:
       global.cutscene = true;
-      alarmstring = function() {
+      alarmstring = function () {
         global.eventnpc[0].lastdir = 270;
         global.eventnpc[0].attacked = true;
         global.eventnpc[1].lastdir = 270;
@@ -49,8 +49,9 @@ if (doonce == false) {
         //All strings must be named as str0, str1, str2, str3 ect. in order to work
         str = [
           "Beast: Friend, listen, the world is going to end, we're nearing it friend, can't you see it? Join us friend, and-",
-        global.beast_name + ": No thank you!",
-        "Beast: Well, we'll force you then!"];
+          global.beast_name + ": No thank you!",
+          "Beast: Well, we'll force you then!"
+        ];
 
         //Modify these two to customize this engine
         strmaxnumb = 2; //Max number of strings (Like, if str56 were the last string, this would just be 56)
@@ -65,7 +66,7 @@ if (doonce == false) {
       break;
     case 2:
       global.cutscene = true;
-      alarmstring = function() {
+      alarmstring = function () {
         obj_player.lastdir = 0;
         global.eventnpc[0].attacked = true;
       };
@@ -77,8 +78,9 @@ if (doonce == false) {
         //All strings must be named as str0, str1, str2, str3 ect. in order to work
         str = [
           "Beast: Hey boy, come closer, let me have a look at you. You look mighty fresh boy, Come on in, let me have a look at ya.",
-        global.beast_name + ": Are you serious? No, boy!",
-          "Beast: You seem mighty protective, let's just see what you have on ya."];
+          global.beast_name + ": Are you serious? No, boy!",
+          "Beast: You seem mighty protective, let's just see what you have on ya."
+        ];
 
         //Modify these two to customize this engine
         strmaxnumb = 2; //Max number of strings (Like, if str56 were the last string, this would just be 56)
@@ -93,7 +95,7 @@ if (doonce == false) {
       break;
     case 3:
       global.cutscene = true;
-      alarmstring = function() {
+      alarmstring = function () {
         obj_player.lastdir = 0;
       };
 
@@ -102,12 +104,13 @@ if (doonce == false) {
       with (_obj) {
         //---------------------------Text-------------------------------------\\
         //All strings must be named as str0, str1, str2, str3 ect. in order to work
-        str =[
+        str = [
           global.beast_name + ": Weird, doesn't look like there's anyone here.",
           global.beast_name +
-          ": The world wasn't always like this. Just a few years ago there was a government, a society, peace...",
+            ": The world wasn't always like this. Just a few years ago there was a government, a society, peace...",
           global.beast_name +
-          ": What happened? When did everything fall apart? I guess I'll just keep on surviving."];
+            ": What happened? When did everything fall apart? I guess I'll just keep on surviving."
+        ];
         //Modify these two to customize this engine
         strmaxnumb = 2; //Max number of strings (Like, if str56 were the last string, this would just be 56)
         typespeed = 14; //Typing speed
@@ -121,7 +124,7 @@ if (doonce == false) {
       break;
     case 4:
       global.cutscene = true;
-      alarmstring = function() {
+      alarmstring = function () {
         global.eventnpc[0].lastdir = 0;
         global.eventnpc[0].attacked = true;
         global.eventnpc[1].lastdir = 0;
@@ -139,7 +142,8 @@ if (doonce == false) {
           "Cobalt: Taking them to live a life in chains, looks like you want to come along too, ey Chrimson? ",
           "Chrimson: A young beast like him would do wonders in the desert. Come here you!",
           global.beast_name +
-          ": Great, now I have bandits on my tail, but I got to save those beasts! "];
+            ": Great, now I have bandits on my tail, but I got to save those beasts! "
+        ];
 
         //Modify these two to customize this engine
         strmaxnumb = 3; //Max number of strings (Like, if str56 were the last string, this would just be 56)
@@ -154,11 +158,11 @@ if (doonce == false) {
       break;
     case 5:
       global.cutscene = true;
-      alarmstring = function() {
+      alarmstring = function () {
         var _j;
         _j = instance_create(0, 0, obj_game_tran0);
         with (_j) {
-          eventstring = function() {
+          eventstring = function () {
             game_restart();
           };
         }
@@ -170,10 +174,12 @@ if (doonce == false) {
       with (_obj) {
         //---------------------------Text-------------------------------------\\
         //All strings must be named as str0, str1, str2, str3 ect. in order to work
-        str = [global.beast_name + ": Hey, you guys alright? ",
+        str = [
+          global.beast_name + ": Hey, you guys alright? ",
           "Beast: Yeah, those bandits just came and took everything, and wanted to keep us as slaves.",
           "Beast: I'm sure that I speak for everyone here when I say; we want to give you our hospitality. Let's get our stuff and go to the town center. ",
-          global.beast_name + ": Ok. "];
+          global.beast_name + ": Ok. "
+        ];
 
         //Modify these two to customize this engine
         strmaxnumb = 3; //Max number of strings (Like, if str56 were the last string, this would just be 56)

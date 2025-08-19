@@ -1,5 +1,5 @@
 function __view_set_internal(__prop, __index, __val) {
-      var __cam = view_get_camera(__index);
+  var __cam = view_get_camera(__index);
   switch (__prop) {
     case e__VW.XView:
       camera_set_view_pos(__cam, __val, camera_get_view_y(__cam));

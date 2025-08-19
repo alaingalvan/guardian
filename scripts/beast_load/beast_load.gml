@@ -171,7 +171,7 @@ function beast_load() {
           "_down" +
           string(global.beast_age)
       );
-      
+
       cur_sprite = sprdown;
       //So that the sprite seems more fluid
       timer = room_speed / 5;

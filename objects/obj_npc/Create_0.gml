@@ -33,3 +33,5 @@ image_single = 0;
 
 grid = mp_grid_create(0, 0, room_width / 16, room_height / 16, 16, 16);
 path = path_duplicate(pth_enemy);
+
+time_since_last_text_window = 0;

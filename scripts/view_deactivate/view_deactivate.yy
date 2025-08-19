@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"view_deactivate",
   "isCompatibility":false,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"npc_walk",
   "isCompatibility":false,
   "isDnD":false,

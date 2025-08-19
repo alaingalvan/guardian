@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"beast_teleport",
   "isCompatibility":false,
   "isDnD":false,

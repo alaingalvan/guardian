@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"fix_view_position",
   "isCompatibility":false,
   "isDnD":false,

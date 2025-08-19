@@ -1,7 +1,7 @@
 var j;
 j = instance_create(0, 0, obj_game_tran1);
 with (j) {
-  eventstring = function() {
+  eventstring = function () {
     instance_destroy();
   };
 }

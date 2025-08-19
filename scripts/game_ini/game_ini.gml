@@ -18,7 +18,7 @@ function game_ini() {
   item_stats_ini(); //Info on all items in game.
   skill_info_ini(); //Info on all skills in game.
   menu_bag_ini(); //Sets up bag.
-  
+
   if (os_browser != browser_not_a_browser) {
     gpu_set_zwriteenable(true);
     gpu_set_ztestenable(true);
@@ -27,5 +27,4 @@ function game_ini() {
     gpu_set_alphatestenable(true);
     gpu_set_texfilter(false);
   }
-
 }

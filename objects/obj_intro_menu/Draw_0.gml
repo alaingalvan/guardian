@@ -116,9 +116,7 @@ switch (cur_menu) {
     );
     draw_sprite_ext(
       asset_get_index(
-        "spr_" +
-        global.beast_stats[global.beast_id, 0] +
-        "_right0"
+        "spr_" + global.beast_stats[global.beast_id, 0] + "_right0"
       ),
       0,
       __view_get(e__VW.XView, 0) + 56,

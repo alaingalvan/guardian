@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"beast_foe_sight",
   "isCompatibility":false,
   "isDnD":false,

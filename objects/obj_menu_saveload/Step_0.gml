@@ -1,3 +1,11 @@
+var _check_z_pressed = keyboard_check_pressed(ord("Z"));
+var _check_x_pressed = keyboard_check_pressed(ord("X"));
+
+if (gamepad_is_supported()) {
+  _check_z_pressed |= gamepad_button_check_pressed(0, gp_face1);
+  _check_x_pressed |= gamepad_button_check_pressed(0, gp_face2);
+}
+
 if (menuon) {
   if (al < 1) {
     al += 0.1;
@@ -14,12 +22,12 @@ if (menuon) {
   }
 }
 
-if (keyboard_check_pressed(ord("X"))) {
+if (_check_x_pressed) {
   menuon = false;
   obj_menu.menustop = false;
 }
 
-if (keyboard_check_pressed(ord("Z"))) {
+if (_check_z_pressed) {
   io_clear();
   if (cur_mode == 0) {
     if (cur_select == 1) {
@@ -36,7 +44,7 @@ if (keyboard_check_pressed(ord("Z"))) {
       var _j;
       _j = instance_create(0, 0, obj_game_tran0);
       with (_j) {
-        eventstring = function() {
+        eventstring = function () {
           beast_load();
         };
       }
