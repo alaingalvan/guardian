@@ -238,7 +238,7 @@ if (cur_menu == 1) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 10,
     __view_get(e__VW.YView, 0) + 52,
-    global.inventorystack[global.inventoryline[0], global.inventoryline[1]],
+    string(global.inventorystack[global.inventoryline[0], global.inventoryline[1]]),
     16,
     320,
     (al - tal) *
@@ -248,7 +248,7 @@ if (cur_menu == 1) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 10,
     __view_get(e__VW.YView, 0) + 68,
-    global.inventorystack[global.inventoryline[0], global.inventoryline[1] + 1],
+    string(global.inventorystack[global.inventoryline[0], global.inventoryline[1] + 1]),
     16,
     320,
     (al - tal) *
@@ -258,7 +258,7 @@ if (cur_menu == 1) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 10,
     __view_get(e__VW.YView, 0) + 84,
-    global.inventorystack[global.inventoryline[0], global.inventoryline[1] + 2],
+    string(global.inventorystack[global.inventoryline[0], global.inventoryline[1] + 2]),
     16,
     320,
     (al - tal) *
@@ -268,7 +268,7 @@ if (cur_menu == 1) {
   draw_text_ext_alpha(
     __view_get(e__VW.XView, 0) + 10,
     __view_get(e__VW.YView, 0) + 100,
-    global.inventorystack[global.inventoryline[0], global.inventoryline[1] + 3],
+    string(global.inventorystack[global.inventoryline[0], global.inventoryline[1] + 3]),
     16,
     320,
     (al - tal) *
